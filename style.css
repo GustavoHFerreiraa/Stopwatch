@@ -1,0 +1,49 @@
+
+body{
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif;
+    margin: 0;
+}
+
+.container{
+    background-image: url("beatch.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    display: flex;
+}
+
+.container-background {
+    width: 100%;
+    margin: 0 auto;
+    text-align:center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 60px;
+    margin: 0;
+}
+
+#seconds, #tens, #hours {
+    font-size:50px;
+}
+
+button{
+    background: orange;
+    color: white;
+    border:solid 1px white;
+    text-decoration:none;
+    cursor:pointer;
+    font-size:20px;
+    padding:15px 10px;
+    width:180px;
+    margin: 10px;
+    outline: none;
+    border-radius: 20px;
+}
